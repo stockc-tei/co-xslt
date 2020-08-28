@@ -7,7 +7,7 @@ Le module `co-xslt` est un module de la chaine de traitement Conditor permettant
 
 ## Configuration
 
-Le fichier de configuration du canvas permet d'assigner une valeur à une variable présente dans une feuille de style.
+Le fichier de configuration du canevas permet d'assigner une valeur à une variable présente dans une feuille de style.
 
 Exemple :
 
@@ -19,7 +19,7 @@ Ajouter cette balise dans la feuille de style (le fichier XLST) :
 <xsl:param name="DateAcqu"/>
 ```
 
-Éditer le fichier de configuration du canvas (businessParams.json) :
+Éditer le fichier de configuration du canevas (businessParams.json) :
 
 ```sh
 $ nano load/co-xslt/businessParams.json
